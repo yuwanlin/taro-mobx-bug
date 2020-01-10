@@ -1,0 +1,25 @@
+// @import '~@/utils/styles/bg-url.scss';
+// @import '~@/assets/font/iconfont.scss';
+
+.index {
+  background-color: #ccc;
+
+  .haha {
+    color: red;
+
+    &.aa {
+      color: blue;
+    }
+  }
+
+  .bg-image {
+    width: 324px;
+    height: 24px;
+    // @include bg-url('./assets/images/broadcast_img_symbol@2x.png');
+  }
+  .box {
+    width: 750px;
+    height: 100px;
+    background-color: #3cf;
+  }
+}
